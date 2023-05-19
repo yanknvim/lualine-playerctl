@@ -11,13 +11,13 @@ A extension show what is playing now with playerctl for [lualine.nvim](https://g
 Add the component 'playerctl' to one of your lualine sections.
 ```lua
 require('lualine').setup {
-        ...
-        sections = {
-            lualine_x = {
-                'playerctl'
-            }
+    ...
+    sections = {
+        lualine_x = {
+            'playerctl'
         }
     }
+}
 ```
 
 ## Installation
