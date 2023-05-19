@@ -5,7 +5,7 @@ PlayerLine.init = function(self, options)
 end
 
 PlayerLine.update_status = function(self)
-	local player = vim.trim(vim.fn.system('playerctl metadate --format "{{ artist}} - {{ title}}"'))
+	local player = vim.trim(vim.fn.system('playerctl metadata --format "{{ artist }} - {{ title }}"'))
 	return player
 end
 
